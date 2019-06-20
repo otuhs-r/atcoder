@@ -1,3 +1,3 @@
 ## AtCoder Beginners Selection
 
-https://atcoder.jp/contests/ab
+https://atcoder.jp/contests/abs
