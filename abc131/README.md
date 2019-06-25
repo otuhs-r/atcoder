@@ -9,6 +9,7 @@ https://atcoder.jp/contests/abc131
 - C : `LTE`
 - E, F : 着手できず
 - 単純な線形探索以外のアルゴリズムがなかなか思いつかない
+  - 解説を読んで C 問題やり直した (`C_anti_division_2.rb`)
 
 解説
 
