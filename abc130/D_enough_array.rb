@@ -1,14 +1,16 @@
 n, k = gets.split.map(&:to_i)
 a = gets.split.map(&:to_i)
 
-count = a.each_with_index.inject(0) do |c, (n, i)|
-  st = a[(i + 1)..-1].each_with_index.inject(a[i]) do |s, (m, j)|
-         break (a.length - i) if a[i] >= k
-         break (a.length - (i+1) - (j+1) + 1) if s + m >= k
-         s + m
-       end
-  break c if st > a.length - i
-  c + st
+sum, r = 0, 0
+anwser = (0..n - 1).inject(0) do |count, l|
+  while sum < k do
+    break if r == n
+    sum += a[r]
+    r += 1
+  end
+  break count if sum < k
+  sum -= a[l]
+  count + (n - r + 1)
 end
 
-puts count
+puts anwser
