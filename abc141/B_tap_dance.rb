@@ -1,0 +1,1 @@
+puts gets.chomp =~ /^([RUD][LUD])*[RUD]?$/ ? 'Yes' : 'No'
