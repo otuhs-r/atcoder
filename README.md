@@ -6,3 +6,4 @@
 
 - 2019/6/22 [AtCoder Beginner Contest 131](/abc131)
 - 2019/7/27 [AtCoder Beginner Contest 135](/abc135)
+- 2019/9/28 [AtCoder Beginner Contest 142](/abc142)
